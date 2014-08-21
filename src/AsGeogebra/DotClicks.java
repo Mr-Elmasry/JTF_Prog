@@ -25,7 +25,7 @@ public class DotClicks extends GraphicsProgram {
     public void init() {
 //        setSize(800, 400);
         setTitle("Dot Clicks App.");
-        lblClicks = new GLabel("Click Any Where to Make a Point", DOTRADIUS,30);
+        lblClicks = new GLabel("Click Any Where to Make a Point", 15 , 30 );
         lblClicks.setFont(new Font("Arial", Font.BOLD, 20));
         add(lblClicks);        
         addMouseListeners();
