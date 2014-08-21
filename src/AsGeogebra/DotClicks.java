@@ -17,7 +17,7 @@ public class DotClicks extends GraphicsProgram {
     
   private static int clicks; 
   private GLabel lblClicks;
-  private static final int DOTRADIUS = 15;
+  private static final int DOTRADIUS = 5;
   public static final int APPLICATION_WIDTH = 400; 
   public static final int APPLICATION_HIEGHT=400;
 
